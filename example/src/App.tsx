@@ -14,6 +14,7 @@ export default function App() {
   return (
     <ThemeProvider>
       <SafeAreaProvider>
+        {/* eslint-disable-next-line react-native/no-inline-styles */}
         <SafeAreaView style={{ flex: 1 }}>
           <StyledView>
             <Typography variant="h1">h1. Heading</Typography>
