@@ -156,5 +156,10 @@
       "jest"
     ],
     "version": "0.55.0"
+  },
+  "dependencies": {
+    "@emotion/native": "^11.11.0",
+    "@emotion/react": "^11.14.0",
+    "react-native-safe-area-context": "^5.6.2"
   }
 }
