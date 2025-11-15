@@ -88,7 +88,7 @@ const variantStyles = {
     lineHeight: 20,
   },
 };
-const StyledText = styled(Text) <{ color?: string; variant: TypographyVariant }>`
+const StyledText = styled(Text)<{ color?: string; variant: TypographyVariant }>`
   font-family: ${(props) => props.theme.fonts.main};
   ${(props) => variantStyles[props.variant]}
   ${(props) => {
