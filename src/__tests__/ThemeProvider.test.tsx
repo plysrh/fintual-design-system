@@ -9,6 +9,7 @@ jest.mock('react-native/Libraries/Utilities/useColorScheme', () => ({
 
 const TestComponent = () => {
   const { theme, scheme, isDark } = useTheme();
+
   return (
     <Text testID="theme-info">
       {JSON.stringify({ scheme, isDark, primaryColor: theme.colors.primary })}
@@ -23,8 +24,8 @@ describe('ThemeProvider', () => {
         <TestComponent />
       </ThemeProvider>
     );
-
     const themeInfo = JSON.parse(getByTestId('theme-info').props.children);
+
     expect(themeInfo.scheme).toBe('system');
     expect(themeInfo.isDark).toBe(false);
   });
