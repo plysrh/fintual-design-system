@@ -19,3 +19,13 @@ Design system for Fintual
 - Durante mi investigación encontré a [Nativewind](https://www.nativewind.dev/) y le estuve dando una vuelta.
 - Mi idea era aprovechar la facilidad de las classNames para manejar los esquemas de colores ([dark mode](https://v3.tailwindcss.com/docs/dark-mode#toggling-dark-mode-manually)), pero me enredé en la configuración de Nativewind.
 - Quizás en una siguiente iteración pueda implementar una alternativa usando ese enfoque.
+
+## How to see the library working
+
+```bash
+# To install the dependencies
+yarn
+
+# And then...
+yarn example web
+```
