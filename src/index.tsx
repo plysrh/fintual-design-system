@@ -6,10 +6,7 @@ export {
   darkTheme,
   tokens,
 } from './modules/theme';
-export type {
-  Theme as EmotionTheme,
-  Scheme as EmotionScheme,
-} from './modules/theme';
+export type { Theme, Scheme } from './modules/theme';
 
 // Typography
 export { Typography } from './modules/typography';
