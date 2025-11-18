@@ -1,6 +1,6 @@
-# fintual-design-system
+# design-system
 
-Design system for Fintual
+Design system
 
 ## Notas
 
