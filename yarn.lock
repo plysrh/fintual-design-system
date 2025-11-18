@@ -7181,6 +7181,8 @@ __metadata:
     release-it: "npm:^19.0.4"
     typescript: "npm:^5.9.2"
   peerDependencies:
+    "@emotion/native": ^11
+    "@emotion/react": ^11
     react: "*"
     react-native: "*"
   languageName: unknown
