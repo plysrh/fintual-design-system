@@ -1,7 +1,7 @@
 {
-  "name": "fintual-design-system",
+  "name": "design-system",
   "version": "0.1.0",
-  "description": "Design system for Fintual",
+  "description": "Design system",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
@@ -32,7 +32,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace fintual-design-system-example",
+    "example": "yarn workspace design-system-example",
     "clean": "del-cli lib",
     "prepare": "bob build",
     "typecheck": "tsc",
@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plysrh/fintual-design-system.git"
+    "url": "git+https://github.com/plysrh/design-system.git"
   },
   "author": "plysrh <ply.srh@gmail.com> (https://github.com/plysrh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/plysrh/fintual-design-system/issues"
+    "url": "https://github.com/plysrh/design-system/issues"
   },
-  "homepage": "https://github.com/plysrh/fintual-design-system#readme",
+  "homepage": "https://github.com/plysrh/design-system#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
